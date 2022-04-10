@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+section {
+    padding: 15px
+}
+
+.cardDiv {
+    width: 90%;
+    min-height: 6vh;
+    margin: 2% auto 0;
+}
+
+.card {
+    width: 90%;
+    min-height: 8vh;
+    border: solid 2px rgb(112, 17, 90);
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+
+}
+
+.addTodo {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 1%;
+}
+
+.btn {
+    width: max-content;
+    background-color: rgb(235, 226, 226);
+    padding: 8px 16px;
+    margin: 1%;
+}
+
+.headTitle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logoutBtn {
+    margin-left: auto;
+}
+
+#main {
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: column;
+    width: 75%;
+    min-height: 90vh;
+    border: 2px solid grey;
+    margin: 0 auto;
+}
+
+.addDiv {
+    display: flex;
+}
+
+.inputs {
+    padding: 8px;
+    width: 30%;
+    height: 5vh;
+    margin: 1%;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 226, 226);
+}
+
+.delete {
+    width: 150px;
+    height: 30px;
+    background-color: grey;
+    color: honeydew;
+}
+
+.delete:hover {
+    background-color: rgb(216, 207, 207);
+    color: black;
+}
+
+#title input {
+    padding: 8px;
+    width: 250px;
+    height: 30px;
+    border: 2px dotted grey;
+}
+
+.pagination {
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}

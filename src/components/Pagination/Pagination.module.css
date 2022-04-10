@@ -1,0 +1,11 @@
+.button {
+    width: max-content;
+    background-color: rgb(235, 226, 226);
+    padding: 8px 16px;
+    margin-left: 0.5%;
+}
+
+.active {    
+    background-color: crimson;
+    color: white;
+}
